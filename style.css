@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.paddle {
+	position: fixed;
+	background-color: black;
+	height: 200px;
+	width: 30px;
+}
+
+/*#inner{
+	height: 100px;
+	width: 100px;
+  
+  }*/
+#ball {
+	position: fixed;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background-color: black;
+}
